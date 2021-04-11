@@ -1,0 +1,59 @@
+/*.body{
+    margin: 0px;
+    padding: 0px;
+}*/
+
+.grancaja h2{
+    text-align: center;
+    text-decoration: overline;
+}
+
+.grancaja h1{
+    text-align: center;
+}
+
+.grancaja div{
+    flex-direction: row;
+}
+
+
+.divisor{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divisor .bot{
+    height: 100vh;
+}
+
+.bot:nth-child(1){
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    
+}
+
+.bot:nth-child(2){
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bot:nth-child(3){
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+.bot:nth-child(1) figure,img{
+    width: 300px;
+    height: 40vh;
+}
+
+.bot:nth-child(3) figure,img{
+    width: 300px;
+    align-items: center;  
+}
+
